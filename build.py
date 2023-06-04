@@ -2,6 +2,7 @@ from pybtex.database.input import bibtex
 
 def get_personal_data():
     name = ["Haoxuan You", "(有昊轩)"]
+    institute = 'Columbia University'
     email = "haoxuanyou@gmail.com"
     # twitter = "Mi_Niemeyer"
     github = "Hxyou"
@@ -35,7 +36,7 @@ def get_personal_data():
                 </p>
             </div>
     """
-    return name, bio_text, footer
+    return name, institute, bio_text, footer
 
 def get_author_dict():
     return {
@@ -136,7 +137,7 @@ def get_talks_html():
 def get_index_html():
     pub = get_publications_html()
     talks = None
-    name, bio_text, footer = get_personal_data()
+    name, institute, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
 <html lang="en">
@@ -151,7 +152,7 @@ def get_index_html():
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <title>{name[0] + ' ' + name[1]}</title>
+  <title>{name[0] + ' ' + institute}</title>
   <link rel="icon" type="image/x-icon" href="assets/columbia.png">
 </head>
 
