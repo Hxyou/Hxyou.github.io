@@ -1,5 +1,7 @@
 from pybtex.database.input import bibtex
 
+# My current research interest mainly lies in Vision-Language learning, Representation Learning and Computer Vision.
+
 def get_personal_data():
     name = ["Haoxuan You", "(有昊轩)"]
     institute = 'Columbia University'
@@ -11,16 +13,24 @@ def get_personal_data():
                 <p>
                     <!-- # <span style="font-weight: bold;">Bio:</span>  -->
                     I am a fourth-year Computer Science PhD student at the Columbia University, advised by <a href="https://www.ee.columbia.edu/~sfchang/" target="_blank">Prof. Shih-Fu Chang</a> and co-advised by <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank">Prof. Kai-Wei Chang</a> from UCLA. 
-                    My current research interest mainly lies in Vision-Language learning, Representation Learning and Computer Vision.
-                </p>
-                <p>
                     Previously I received a Bachelor dregree from <a href="https://en.xidian.edu.cn/" target="_blank">Xidian University</a> in 2018. Then I spent a gap year working as a Research Assistant in Tsinghua University advised by <a href="https://www.gaoyue.org/" target="_blank">Prof. Yue Gao</a>,
                     in the middle of which, I visited  <a href="http://mcl.usc.edu" target="_blank">MCL lab</a> in University of Southern California, advised by <a href="http://mcl.usc.edu/people/cckuo/" target="_blank">Prof. C.-C. Jay Kuo</a>.
                 </p>
                 <p>
                     In my Ph.D. study, I am fortunate to intern at Microsoft Azure Cognitive Services Research (Mentor: <a href="https://luoweizhou.github.io/" target="_blank">Luowei Zhou</a>), 
-                    and Google Research (Mentor: <a href="https://jiahuiyu.com/" target="_blank">Jiahui Yu</a>, <a href="https://scholar.google.com/citations?user=qOiCKewAAAAJ&hl=en" target="_blank">Mandy Guo</a> and <a href="http://www.jasonbaldridge.com/" target="_blank">Jason Baldridge</a>).
+                    Google Research (Mentor: <a href="https://jiahuiyu.com/" target="_blank">Jiahui Yu</a>, <a href="https://scholar.google.com/citations?user=qOiCKewAAAAJ&hl=en" target="_blank">Mandy Guo</a> and <a href="http://www.jasonbaldridge.com/" target="_blank">Jason Baldridge</a>),
+                    and Apple AI/ML (Mentor: <a href="http://llcao.net/" target="_blank">Liangliang Cao</a>, <a href="https://zhegan27.github.io/" target="_blank">Zhe Gan</a> and <a href="https://sites.google.com/site/yinfeiyang" target="_blank">Yinfei Yang</a>).
                 </p>
+
+                <p>
+                    I work on interesting and fundamental research problems in the field of vision-and-language, with an emphasis on scalable, unified and generalizable models/methods.  Recently, I focus on three topics:
+                    <ul>
+                        <li><b>Vision-Language Understanding:</b> Multimodal LLM, Visual Commonsense.</li>
+                        <li><b>Text-to-Image Generation:</b> Auto-regressive Text-to-Image Generation, Diffusion Model.</li>
+                        <li><b>Language for Vision:</b> Language-supervised Contrastive/Generative Pre-training.</li>
+                    </ul>
+                </p>
+            
                 <p>
                     <a href="https://Hxyou.github.io/assets/pdf/Phd_CV.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:haoxuanyou@gmail.com" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
@@ -170,7 +180,7 @@ def get_index_html():
                 <img src="assets/img/profile.jpeg" class="img-thumbnail" width="280px" alt="Profile picture">
             </div>
         </div>
-        <div class="row" style="margin-top: 1em;">
+        <div class="row" style="margin-top: 3em;">
             <div class="col-sm-12" style="">
                 <h4>Selected Publications (<a href="https://scholar.google.com/citations?user=BhysChMAAAAJ&hl=en" target="_blank">Full List</a>)</h4>
                 <p>  </p>
