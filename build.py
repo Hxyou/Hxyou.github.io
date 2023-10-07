@@ -182,7 +182,10 @@ def get_index_html():
                 {bio_text}
             </div>
             <div class="col-md-4" style="">
-                <img src="assets/img/profile.jpeg" class="img-thumbnail" width="280px" alt="Profile picture">
+                <figure>
+                    <img src="assets/img/profile.jpeg" class="img-thumbnail" width="280px" alt="Profile picture">
+                    <figcaption class="text-left">📷 credit to: my fiancée Xiaohui </figcaption>
+                </figure>
             </div>
         </div>
         <div class="row" style="margin-top: 3em;">
