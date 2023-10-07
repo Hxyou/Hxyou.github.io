@@ -30,6 +30,10 @@ def get_personal_data():
                         <li><b>Language for Vision:</b> Language-supervised Contrastive/Generative Pre-training.</li>
                     </ul>
                 </p>
+
+                 <p>
+                    <i><span style="color: red;"><b>News: I will be joining Apple AI/ML as a Research Scientist working on Foundation Models once I graduated. </b></span></i>
+                </p>
             
                 <p>
                     <a href="https://Hxyou.github.io/assets/pdf/Phd_CV.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
@@ -37,6 +41,7 @@ def get_personal_data():
                     <a href="https://scholar.google.com/citations?user=BhysChMAAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/Hxyou" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/haoxuan-you-b9872a151" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
+                    <a href="https://twitter.com/XyouH" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                 </p>
     """
     footer = """
