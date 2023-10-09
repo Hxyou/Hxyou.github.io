@@ -32,7 +32,7 @@ def get_personal_data():
                 </p>
 
                  <p>
-                    <i><span style="color: red;"><b>News: I will be joining Apple AI/ML as a Research Scientist working on Foundation Models once I graduated. </b></span></i>
+                    <i><span style="color: red;"><b>News: I will be joining Apple AI/ML as a Research Scientist working on Foundation Models after graduation. </b></span></i>
                 </p>
             
                 <p>
